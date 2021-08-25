@@ -66,9 +66,6 @@ function my_keydown(e)
 			console.log("right");
 		}
 	}
-	document.getElementById("hd3").innerHTML="You have Hit the Goal!!!";
-	document.getElementById("myCanvas").style.borderColor="red";
-
 	function up()
 	{
 		if(ball_y>=5){
@@ -116,4 +113,5 @@ function my_keydown(e)
 	}
 	
 }
-
+document.getElementById("hd3").innerHTML="You have Hit the Goal!!!";
+	document.getElementById("myCanvas").style.borderColor="red";
